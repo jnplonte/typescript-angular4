@@ -1,6 +1,6 @@
 {
   "name": "angular-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "angular boilerplate",
   "main": "index.js",
   "dependencies": {
@@ -37,6 +37,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.1",
     "null-loader": "^0.1.1",
+    "optimize-css-assets-webpack-plugin": "^2.0.0",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.2",
     "style-loader": "^0.13.1",

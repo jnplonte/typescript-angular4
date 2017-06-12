@@ -11,28 +11,6 @@ if (process.env.ENV === 'production') {
   enableProdMode();
 }
 
-function getElementAttrs(el) {
-  return [].slice.call(el.attributes).map((attr) => {
-    return {
-      name: attr.name,
-      value: attr.value
-    }
-  });
-}
-
-function getElementValue(elmAttribute, attrVal) {
-  var elemVal = '';
-  for (var i = 0; i < elmAttribute.length; i++) {
-    if (elmAttribute[i].name == attrVal) {
-      elemVal = elmAttribute[i].value;
-      break;
-    }
-  }
-  return elemVal;
-}
-
-const elmAttribute = getElementAttrs(document.querySelector('my-app'));
-
-ConfigService.loadInstance(getElementValue(elmAttribute, 'config')).then(() => {
+ConfigService.loadInstance(document.querySelector('my-app').getAttribute('config')).then(() => {
   platformBrowserDynamic().bootstrapModule(AppModule);
 });

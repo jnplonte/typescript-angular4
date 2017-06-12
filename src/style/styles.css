@@ -1,8 +1,3 @@
-h1 {
-  color: #369;
-  text-align: center;
-}
-
 .loader,
 .loader:before,
 .loader:after {
@@ -62,4 +57,3 @@ h1 {
     height: 5em;
   }
 }
-
