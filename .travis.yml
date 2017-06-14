@@ -20,5 +20,4 @@ before_install:
 before_script:
   - npm install -g typescript
   - npm install -g karma-cli
-  - npm install
 script: karma start ./config/karma.common.js --single-run
