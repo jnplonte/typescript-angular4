@@ -1,5 +1,6 @@
 # ANGULAR 4 BOILERPLATE
-
+[![Build Status](https://travis-ci.org/jnplonte/typescript-angular4.svg?branch=master)](https://travis-ci.org/jnplonte/typescript-angular4)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
 
 ## Dependencies
 * nodejs: [https://nodejs.org/](https://nodejs.org/en/)
