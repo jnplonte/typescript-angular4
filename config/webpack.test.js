@@ -29,14 +29,18 @@ module.exports = {
         loader: 'null-loader'
       },
       {
-        test: /\.css$/,
-        exclude: helpers.root('src', 'app'),
-        loader: 'null-loader'
-      },
-      {
-        test: /\.css$/,
-        include: helpers.root('src', 'app'),
-        loader: 'raw-loader'
+        test: /\.scss$/,
+        exclude: [helpers.root('node_modules'), helpers.root('src', 'style')],
+        use: [{
+              loader: "to-string-loader"
+          }, {
+              loader: "css-loader"
+          }, {
+              loader: "sass-loader",
+              options: {
+                  includePaths: [helpers.root('src', 'style')]
+              }
+          }]
       }
     ]
   },

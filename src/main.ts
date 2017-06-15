@@ -5,7 +5,7 @@ import { AppModule } from './app/app.module';
 
 import { ConfigService } from './app/services/config.service';
 
-import './style/styles.css';
+import './style/styles.scss';
 
 if (process.env.ENV === 'production') {
   enableProdMode();

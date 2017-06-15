@@ -5,7 +5,7 @@ var sampleImg = require("./../../../img/sample.jpg");
 @Component({
   selector: 'main',
   templateUrl: 'main.component.html',
-  styleUrls: ['main.component.css']
+  styleUrls: ['main.component.scss']
 })
 
 export class MainComponent  {
