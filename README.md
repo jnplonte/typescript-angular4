@@ -6,8 +6,10 @@
 ## Dependencies
 * nodejs: [https://nodejs.org/](https://nodejs.org/en/)
 * angular4: [https://angular.io/](https://angular.io/)
-* webpack: [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 * typescript: [https://webpack.github.io/](https://webpack.github.io/)
+* lodash: [https://lodash.com/](https://lodash.com/)
+* sass: [http://sass-lang.com/](http://sass-lang.com/)
+* webpack: [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 * karma: [https://karma-runner.github.io](https://karma-runner.github.io/1.0/index.html)
 
 

@@ -1,5 +1,7 @@
 import { Component, Inject} from '@angular/core';
 
+import * as _ from 'lodash';
+
 @Component({
   selector: 'my-app',
   templateUrl: 'app.component.html',
@@ -12,6 +14,10 @@ export class AppComponent  {
 
   constructor(@Inject('configService') configService){
     this.config = configService.data;
-    console.log(this.config);
+    
+
+    var other = _.concat([1], 2, [3], [[4]]);
+
+    console.log(this.config, other);
   }
 }
