@@ -14,8 +14,8 @@
 
 
 ## Installation
-- Install typescript globally `npm install -g typescript`
-- Install npm dependencies by running `npm install`
+- install typescript globally `npm install -g typescript`
+- install npm dependencies by running `npm install`
 
 
 ## How to Use
@@ -23,7 +23,7 @@
 
 
 ## Testing
-- Install karma-cli globally `npm install -g karma-cli`
+- install karma-cli globally `npm install -g karma-cli`
 - run `npm test`
 
 
